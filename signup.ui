@@ -7,8 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>228</width>
-    <height>325</height>
+    <height>360</height>
    </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -17,46 +20,46 @@
    <property name="geometry">
     <rect>
      <x>30</x>
-     <y>250</y>
+     <y>290</y>
      <width>75</width>
      <height>31</height>
     </rect>
    </property>
    <property name="text">
-    <string>LOGIN</string>
+    <string>SIGN UP</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="userNameBox">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>150</y>
+     <y>140</y>
      <width>191</width>
      <height>31</height>
     </rect>
    </property>
    <property name="placeholderText">
-    <string>Enter Your Username or Email</string>
+    <string>Enter Your Username</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="passwordBox">
+  <widget class="QLineEdit" name="userEmailBox">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>200</y>
+     <y>190</y>
      <width>191</width>
      <height>31</height>
     </rect>
    </property>
    <property name="placeholderText">
-    <string>Enter Your Password</string>
+    <string>Enter Your Email</string>
    </property>
   </widget>
   <widget class="QPushButton" name="cancelButton">
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>250</y>
+     <y>290</y>
      <width>75</width>
      <height>31</height>
     </rect>
@@ -65,11 +68,24 @@
     <string>CANCEL</string>
    </property>
   </widget>
+  <widget class="QLineEdit" name="userPasswordBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Your Password</string>
+   </property>
+  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>12</y>
+     <y>10</y>
      <width>121</width>
      <height>121</height>
     </rect>
@@ -85,7 +101,7 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>290</y>
+     <y>330</y>
      <width>141</width>
      <height>23</height>
     </rect>
@@ -94,7 +110,7 @@
     <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="text">
-    <string>Don't Have an Account</string>
+    <string>Already Have an Account</string>
    </property>
   </widget>
  </widget>
